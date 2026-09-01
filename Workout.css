@@ -11,7 +11,7 @@ body{
 }
 
 
-/* Header */
+
 
 header{
     background:#111827;
@@ -47,7 +47,7 @@ nav a:hover{
 }
 
 
-/* Page Heading */
+
 
 .heading{
     text-align:center;
@@ -64,7 +64,6 @@ nav a:hover{
 }
 
 
-/* Sections */
 
 .section{
     width:90%;
@@ -78,7 +77,6 @@ nav a:hover{
 }
 
 
-/* Categories */
 
 .categories{
     display:flex;
@@ -108,7 +106,63 @@ nav a:hover{
 }
 
 
-/* Mobile */
+
+
+.choose-workout{
+    background:#111827;
+    max-width:500px;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    text-align:left;
+}
+
+.choose-workout label{
+    display:block;
+    margin:15px 0 8px;
+}
+
+.choose-workout select,
+.choose-workout input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#334155;
+    color:white;
+}
+
+.choose-workout .btn{
+    display:block;
+    width:max-content;
+    margin:25px auto 0;
+}
+
+
+
+
+.btn{
+    display:inline-block;
+    background:#22C55E;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+    text-decoration:none;
+}
+
+
+
+
+footer{
+    text-align:center;
+    background:#111827;
+    color:#94A3B8;
+    padding:20px;
+    margin-top:60px;
+}
+
+
+
 
 @media(max-width:700px){
 
