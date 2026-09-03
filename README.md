@@ -11,12 +11,13 @@
 
 ## About
 
+A Fitness Progress Tracker built with MERN Stack that helps users log workouts, track body measurements, monitor progress, and visualize fitness goals.
+
 ## Tech stack
 
 - Frontend: HTML, CSS, JavaScript
 - Version Control: Git & GitHub
-- Backend: <e.g. Node.js / Express>
-- Database: <e.g. PostgreSQL>
+- Backend: Node.js / Express.js
 
 ## Running locally
 
@@ -27,7 +28,7 @@ make run
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+Add once M5 is done. Until then, leave as is.
 
 ## Health endpoint
 
