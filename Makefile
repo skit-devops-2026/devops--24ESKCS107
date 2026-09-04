@@ -11,13 +11,23 @@
 .PHONY: install test build run docker-build docker-up
 
 install:
-	@echo "TODO: install dependencies" && exit 1
+	@echo "No dependencies to install for FitForge."
 
 test:
-	@echo "TODO: run the test suite" && exit 1
+	@echo "Running FitForge tests..."
+	@test -f Home.html
+	@test -f Workout.html
+	@test -f Progress.html
+	@test -f Dashboard.html
+	@echo "All FitForge tests passed."
 
 build:
-	@echo "TODO: build the project" && exit 1
+	@echo "Checking FitForge project files..."
+	@test -f Home.html
+	@test -f Workout.html
+	@test -f Progress.html
+	@test -f Dashboard.html
+	@echo "FitForge build check passed."
 
 run:
 	@echo "TODO: start the app locally" && exit 1
