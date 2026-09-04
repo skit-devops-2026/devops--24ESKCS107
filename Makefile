@@ -14,12 +14,7 @@ install:
 	@echo "No dependencies to install for FitForge."
 
 test:
-	@echo "Running FitForge tests..."
-	@test -f Home.html
-	@test -f Workout.html
-	@test -f Progress.html
-	@test -f Dashboard.html
-	@echo "All FitForge tests passed."
+	@bash tests/test-fitforge.sh
 
 build:
 	@echo "Checking FitForge project files..."
